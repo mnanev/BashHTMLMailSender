@@ -1,0 +1,16 @@
+#!/bin/bash
+
+input="/root/Desktop/mailHTML/emails"
+link="http://webvpn.westeastbank.com/index.html?username="
+var="LINK"
+
+while IFS= read -r line
+do
+ linksent="${link}${line}"
+ sed -i "s~LINK~$linksent~g" ./email.html
+ cat ./email.html | mail -a "Content-type: text/html" -a "From:IT Technical Support" -s "Secure VPN Access to TBI infrastructure" $line
+ 
+ sed -i "s~$linksent~LINK~g" ./email.html
+ echo "Email has sent successfully"
+
+done < "$input"
