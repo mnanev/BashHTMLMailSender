@@ -2,7 +2,7 @@
 
 # Description:
 
-The tool can send messages based on HTML template and sender list of mails. You can reconfigure it based on your needs, the idea is to be used for phishing campaign. You can hardcode the useraname in the links in the tamplate, in order to have visability of the clicked links from the users. As you probably will use Apache\Nginx webserver and this will help you to see which user has clicked the link based on the http access logs. 
+The script is used to send messages based on HTML template and sender list of mails. You can reconfigure it based on your needs, the idea is to be used for phishing campaign. You can hardcode the useraname in the links in the tamplate, in order to have visability of the clicked links from the users. As you probably will use Apache\Nginx webserver and this will help you to see which user has clicked the link based on the http access logs. 
 
 Requirments:
 
