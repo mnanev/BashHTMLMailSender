@@ -12,6 +12,6 @@ Requirments:
 
 Usage:
 
-1. Reconfigure email.html file
+1. Reconfigure email.html and bash script based on your needs
 2. Add your recipients in the emails.txt file
 3. Start the bash script
