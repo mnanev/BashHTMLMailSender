@@ -1,4 +1,4 @@
-# BashHTMLSender
+# BashMailSenderHTML
 
 # Description:
 
