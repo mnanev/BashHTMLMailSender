@@ -9,11 +9,15 @@ By using a web server like Apache or Nginx, you can monitor which users clicked 
 ⚙️ Requirements
 
 🐧 Linux Machine
+
 ✉️ Installed sendmail service
+
 🔧 Configured ssmtp
 
 🚀 Usage
 
 📝 Reconfigure email.html and the bash script according to your needs.
+
 📋 Add your recipients in the emails.txt file.
+
 ▶️ Run the bash script.
